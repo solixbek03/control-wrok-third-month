@@ -1,7 +1,8 @@
 body {
   background-image: url("../img/pizza.jpeg");
   background-repeat: no-repeat;
-  background-size: auto 1000px;
+  background-size: 1729px 1000px;
+  background-position: center center;
 }
 
 .results__listF {
