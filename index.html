@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="hero__container container d-flex">
+    <div class="w-75 border-end border-4 border-dark">
+      <form class="hero__form d-flex flex-column" id="buttun">
+        <label class="hero__label h3 form-label" for="bread">Noni qanday bolsin</label>
+  
+        <select id="non" class="hero__select form-select w-25 p-1">
+          <option value="Yupqa">Yupqa</option>
+          <option value="Qalin">Qalin</option>
+          <option value="Ortacha">O'rtacha</option>
+        </select>
+      </form>
+  
+      <form class="hero__fromF" id="buttun">
+        <label class="hero__label h3 form-label mt-2 mb-4" for="size">Kataligi</label>
+        <div class="w-50 d-flex" id="size">
+          <label class="input-group w-25 ms-4">
+            <input class="hero__radioF visually-hidden" type="radio" name="user_radioF">
+            <span class="radioF__input rounded-pill border border-dark p-4 px-3">25 cm</span>
+          </label>
+
+          <label class="input-group w-25">
+            <input class="hero__radioS visually-hidden" type="radio" name="user_radioS">
+            <span class="radioS__input rounded-pill ms-2 border border-dark p-4 px-3">30 cm</span>
+          </label>
+
+          <label class="input-group w-25">
+            <input class="hero__radioT visually-hidden" type="radio" name="user_radioT">
+            <span class="radioT__input rounded-pill ms-2 border border-dark p-4 px-3">35 cm</span>
+          </label>
+        </div>
+      </form>
+
+      <h2 class="h3 mt-4">Ustiga nma solaylik</h2>
+      <form class="d-flex px-3 hero__formS" id="buttun">
+        <div class="d-flex flex-column">
+          <div class="d-flex">
+            <input class="hero__checkboxF" id="pomidor" type="checkbox">
+            <label class="p-2 h5" for="pomidor">Pomidor</label>
+          </div>
+
+          <div class="d-flex">
+            <input class="hero__checkboxS" id="KurkaGoshti" type="checkbox">
+            <label class="p-2 h5" for="KurkaGoshti">Kurka goshti</label>
+          </div>
+          
+          <div class="d-flex">
+            <input class="hero__checkboxT" id="Zaytun" type="checkbox">
+            <label class="p-2 h5" for="Zaytun">Zaytun</label>
+          </div>
+        </div>
+        <div class="d-flex flex-column ms-5">
+          <div class="d-flex">
+            <input class="hero__checkboxFF" id="Tuzlangan_bodiring" type="checkbox">
+            <label class="p-2 h5" for="Tuzlangan_bodiring">Tuzlangan bodiring</label>
+          </div>
+
+          <div class="d-flex">
+            <input class="hero__checkboxFS" id="Qoziqorin" type="checkbox">
+            <label class="p-2 h5" for="Qoziqorin">Qoziqorin</label>
+          </div>
+
+          <div class="d-flex">
+            <input class="hero__checkboxFT" id="Qazi" type="checkbox">
+            <label class="p-2 h5" for="Qazi">Qazi</label>
+          </div>
+        </div>
+      </form>
+
+      <h2 class="h3 mt-4">Qoshimchalar</h2>
+      <form class="d-flex  px-3" id="buttun">
+        <div class="d-flex">
+          <input class="checkboxF" id="chili" type="checkbox">
+          <label class="p-2 h5" for="chili">Achchiq</label>
+        </div>
+
+        <div class="d-flex ms-5">
+          <input class="checkboxS" id="Sosiska" type="checkbox">
+          <label class="p-2 h5" for="Sosiska">Sosiskali</label>
+        </div>
+      </form>
+    </div>
+
+    <div class="hero__results results p-3">
+      <p class="results__bread h3 mt-2">Non: <span class="results__spanBread fs-5"></span></p>
+
+      <p class="results__size h3 mt-3">Kataligi: <span class="results__spanSize fs-5"></span></p>
+
+      <h4 class="results__heading h3 mt-2">Ustida:</h4>
+
+      <ul class="results__listF fs-5"></ul>
+
+      <h4 class="results__heading h3 mt-2">Qoshimcha:</h4>
+
+      <ul class="results__listS fs-5"></ul>
+
+      <button class="btn btn-danger pt-3 pb-3 px-5" form="button">Buyurtma berish</button>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
