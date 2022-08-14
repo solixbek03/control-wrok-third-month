@@ -2,7 +2,7 @@ const elForm = document.querySelector(".hero__form");
 let elSelect = elForm.querySelector(".hero__select");
 let elBread = document.querySelector(".results__spanBread");
 
-elForm.addEventListener('click', function(evt){
+elSelect.addEventListener('click', function(evt){
   evt.preventDefault();
 
   let elSelectVall = elSelect.value;
@@ -18,7 +18,6 @@ elForm.addEventListener('click', function(evt){
 
 // ================================= SECOND Form ======================================================
 
-const elFormS = document.querySelector(".hero__fromF");
 let elRadioF = document.querySelector(".hero__radioF");
 let elRadioS = document.querySelector(".hero__radioS");
 let elRadioT = document.querySelector(".hero__radioT");
